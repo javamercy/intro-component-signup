@@ -12,6 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 5rem;
 }
 
 .container {
@@ -57,6 +58,7 @@ body {
   color: #fff;
   padding: 1rem 3rem;
   background-color: hsl(248, 32%, 49%);
+  box-shadow: 0 4px 8px 5px rgba(0, 0, 0, .3);
   border-radius: 5px;
   width: 80%;
   margin-bottom: 2rem;
@@ -74,6 +76,7 @@ body {
   flex-direction: column;
   padding: 2rem;
   border-radius: 5px;
+  box-shadow: 0 4px 8px 5px rgba(0, 0, 0, .3);
   background-color: #fff;
 }
 
@@ -153,6 +156,10 @@ body {
     html{
 
         font-size: 14px;
+    }
+
+    body{
+      background-image: url("/images/bg-intro-mobile.png");
     }
   .container {
     flex-direction: column;
